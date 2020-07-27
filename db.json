@@ -1,37 +1,14 @@
 {
   "users": [
     {
-      "name": "Tuan",
-      "id": "jJ-aRaPEM"
-    },
-    {
-      "name": "Toan",
-      "id": "AhU1UI82l"
-    },
-    {
-      "name": "Linh",
-      "id": "6UAMOQ_96"
-    },
-    {
-      "name": "Hoai",
-      "id": "-u5Doqn0j"
-    },
-    {
-      "name": "Tuan",
-      "id": "d25avb2OA"
-    },
-    {
-      "name": "Huy",
-      "id": "fdR_uMzLo"
-    },
-    {
-      "name": "Phuong",
-      "id": "hsEsxKHHE"
-    },
-    {
       "name": "Toan",
       "phone": "051299",
       "id": "LEt8ef7F9"
+    },
+    {
+      "name": "Hoang",
+      "phone": "012",
+      "id": "bNyoeOlOO"
     }
   ]
 }
