@@ -4,7 +4,7 @@ var db = require('../db');
 var shortid = require('shortid');
 var controller = require('../Controller/user.controller');
 var validate = require('../validate/user.validate.js');
-
+var authMiddleware = require('../middlewares/auth.middleware');
 
 router.get('/', controller.index);
 
