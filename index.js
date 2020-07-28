@@ -3,6 +3,7 @@ var app = express();
 var shortid = require('shortid');
 var userRoute = require('./routes/user.route');
 
+var authRoute = require('./routes/auth.route');
 
 var port = 3000;
 
@@ -22,6 +23,7 @@ app.get('/', function(req, res ) {
 
 
 app.use('/users', userRoute);
+app.use('/auth', authRoute);
 
 app.listen(port, function() {
 	console.log('Server listenning on port' + port)
