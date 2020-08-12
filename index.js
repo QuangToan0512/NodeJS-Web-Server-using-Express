@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 var express = require('express');
 var app = express();
 var shortid = require('shortid');
@@ -16,7 +18,7 @@ app.set('views', './views');
 app.use(express.json()) // for parsing application/json
 app.use(express.urlencoded({ extended: true })) // for parsing application/x-www-form-urlencoded
 app.use(express.static('public'));
-app.use(cookieParser('sadfds15435tqte'));
+app.use(cookieParser('process.env.SESSION_SECRET'));
 
 app.get('/', function(req, res ) {
 	res.render('index', {
